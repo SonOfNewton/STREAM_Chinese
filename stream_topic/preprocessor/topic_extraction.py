@@ -8,7 +8,7 @@ from nltk import pos_tag
 from nltk.corpus import brown as nltk_words
 from nltk.corpus import words as eng_dict
 from numpy.linalg import norm
-from ..utils.dataset import TMDataset
+# from ..utils.dataset import TMDataset
 
 from ._embedder import BaseEmbedder
 
