@@ -75,6 +75,7 @@ class ISIM(BaseMetric):
 
         self.n_words = n_words
         self.n_intruders = n_intruders
+        self.metric_embedder = metric_embedder
 
     def get_info(self):
         """
@@ -307,6 +308,7 @@ class INT(BaseMetric):
 
         self.n_words = n_words
         self.n_intruders = n_intruders
+        self.metric_embedder = metric_embedder
 
     def get_info(self):
         """
@@ -556,6 +558,7 @@ class ISH(BaseMetric):
 
         self.embeddings = None
         self.n_intruders = n_intruders
+        self.metric_embedder = metric_embedder
 
     def get_info(self):
         """
